@@ -1,17 +1,17 @@
 # UnionHackathon  
 118.67.129.142:3000  
 
-#/translate  
+# /translate  
 method:POST   
 
-##request  
+## request  
 body{  
 	source: 원본 언어(en)  
 	target: 목표언어(kr)  
 	text: 번역할 문장  
 }  
 
-##response  
+## response  
 {  
 	"message": {  
 		"@type": "response",  
