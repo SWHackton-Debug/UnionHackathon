@@ -1,8 +1,11 @@
 # UnionHackathon  
 118.67.129.142:3000  
 
+
 # /translate  
 method:POST   
+사진에서 추출한 사물의 이름을 번역해서 돌려줍니다.
+
 
 ## request  
 
