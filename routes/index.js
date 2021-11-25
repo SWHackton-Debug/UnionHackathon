@@ -8,6 +8,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/translate',async(req,res,next)=>{
+  console.log(req.body);
   const options = {
     uri: 'https://openapi.naver.com/v1/papago/n2mt',
     method: 'POST',
